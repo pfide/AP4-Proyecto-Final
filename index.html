@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script defer src="js/app.js"></script>
+    <title>Curriculum Vitae - Arg. Programa 4.0</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img
+                    heigth="50"
+                    width="50"
+                    src="img/perfil.webp"
+                    alt="Portfolio"
+                />
+                <div>
+                    Pablo Fidélibus<br>
+                    Tec. en Redes Informáticas
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/menu-open.svg" alt="Abrir menú">
+            </button>
+            
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/menu-close.svg" alt="Cerrar menú">
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br> Pablo Fidélibus</h1>
+                <p class="profile-details">
+                    Técnico Superior en Redes Informáticas. Apasionado por la tecnología y el hardware. Actual estudiante de programación FrontEnd.</p>
+                    <a class="profile-btn" href="/CV_test.pdf" download>
+                        Descargar CV
+                    </a>
+            </div>
+        
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/perfil.webp" alt="Fotografía personal">
+            <!-- Línea contorno inferior de imagen, por si se usa imagen cuadrada de perfil
+                <div class="profile-img-line">
+                </div> -->
+            </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="/img/wave.svg" alt="Separador" class="wave">
+        <div class="experiences-body" >
+            <h2 class="experiences-title" >Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2015-2023</div>
+                    <div class="experience-company">Coop. Elec. Pipinas</div>
+                    <div class="experience-position">Administración - TI</div>
+                    <div class="experience-description">Gestión de la toma de consumos por conexión. Facturación de los servicios. Presentaciones de datos a organismos de control. Actualización de bases de datos. Asesoría de implementaciones de software. Responsable de equipos informáticos y redes.</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2014-2015</div>
+                    <div class="experience-company">Grupo Randazzo</div>
+                    <div class="experience-position">Dto. Finanzas</div>
+                    <div class="experience-description">Conciliación de pagos. Facturación de vehículos nuevos y usados. Gestión de formularios del automotor. Imputación de pagos por compras de las sucursales. Compensaciones contables de los talleres propios.</div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2009-2013</div>
+                    <div class="experience-company">Agro Ruta 36 S.A.</div>
+                    <div class="experience-position">Administración</div>
+                    <div class="experience-description">Control de rendiciones y consolidación de cajas diarias. Mantenimiento de las bases de datos del plan contable, productos y otros índices del sistema administrativo. Confección de los libros de IVA y balances. Gestión y control de las cuentas de proveedores y clientes. </div>
+                </div>
+            </div>
+        </div>
+        <img src="/img/wave.svg" alt="Separador" class="wave wave_bottom">
+    </section>
+
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">Contabilidad</li>
+                <li class="skills-skill">Diseño de Redes</li>
+                <li class="skills-skill">Servidores</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección</p>
+                    <p class="contact-text">Verónica, Argentina</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">pfidelibus@outlook.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">Deje su mensaje, y a la brevedad será respondido.</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+
+            <nav class="social">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="http://www.linkedin.com/in/pfidelibus">
+                            <img src="img/social/linkedin.svg" alt="Logo linkedin">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://twitter.com/Manij0n">
+                            <img src="img/social/twitter.svg" alt="Logo twitter">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/pfide">
+                            <img src="img/social/github.svg" alt="Logo github">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </section>
+    </div>
+
+</body>
+
+</html>

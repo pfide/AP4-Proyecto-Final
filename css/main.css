@@ -1,0 +1,54 @@
+:root {
+    --theme-color: white;
+    --primary-color: #0099ff;
+    --secondary-color: rgb(255, 217, 0);
+    --text-color: black;
+    --text-color-inverse: white;
+    --navbar-shallow-color: grey;
+    --menu-mobile-background-color: rgb(58, 53, 53);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px; /*Tamaño nav bar*/
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+/*Padding de los div que contienen los sections.*/
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950){
+    .horizontal-padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
